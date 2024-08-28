@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz">
+            <h2 id="question">Welcom to Lex Quiz</h2>
+            <ul id="choices">
+                <!-- Choices will be injected here by JavaScript -->
+            </ul>
+            <button id="next-btn">Next</button>
+        </div>
+        <div id="score-container" class="hide">
+            <h2>Your Score: <span id="score"></span></h2>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+        <div id="timer">Time left: <span id="time">15</span>s</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
